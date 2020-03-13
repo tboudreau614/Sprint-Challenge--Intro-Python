@@ -36,7 +36,7 @@ class Airplane(FlightVehicle):
 
 # Base class for starship vehicles
 
-class Starship(Vehicle):
+class Starship(FlightVehicle):
     def __init__(self):
         pass
 
